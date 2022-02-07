@@ -13,7 +13,7 @@ pipeline{
                                           url: 'http://ec2-18-130-111-144.eu-west-2.compute.amazonaws.com:8080')], 
                     contextPath: 'javawebapp', 
                     war: '**/java-web-project.war'   
-            }
+            } 
         }
     }
 }
